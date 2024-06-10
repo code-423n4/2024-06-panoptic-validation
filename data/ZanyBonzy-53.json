@@ -1,0 +1,8 @@
+{
+  "contest": 387,
+  "handle": "ZanyBonzy",
+  "risk": "2",
+  "title": "M-02 from past audit not completely fixed. Users can still bypass solvency checks when settling long premium",
+  "issueId": 53,
+  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/53"
+}
