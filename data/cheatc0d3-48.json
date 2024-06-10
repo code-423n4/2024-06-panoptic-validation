@@ -1,0 +1,8 @@
+{
+  "contest": 387,
+  "handle": "cheatc0d3",
+  "risk": "2",
+  "title": "Division by Zero in _computeSpread Function Leads to Potential Runtime Errors and Incorrect Collateral Calculations",
+  "issueId": 48,
+  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/48"
+}
