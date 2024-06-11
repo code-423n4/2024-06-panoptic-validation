@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "integer overflow.",
   "issueId": 23,
-  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/23"
+  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/23",
+  "validatedIssueId": 34,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-06-panoptic-findings/issues/34"
 }
