@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Delegatecal Loop : contracts/base/Multicall.sol#L12-L36",
   "issueId": 2,
-  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/2"
+  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/2",
+  "validatedIssueId": 51,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-06-panoptic-findings/issues/51"
 }
