@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "SFPM does not update `s_accountPremiumOwed` or 's_accountPremiumGross` accumulators while transferring position",
   "issueId": 55,
-  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/55"
+  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/55",
+  "validatedIssueId": 3,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-06-panoptic-findings/issues/3"
 }
