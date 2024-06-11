@@ -1,0 +1,50 @@
+status,issue,title,primary finding
+Satisfactory,validation-9,Incorrect Event Emission in Redeem Function,validation-9
+Satisfactory,validation-17,Users should not be allowed to mint more positions than the limit,validation-17
+Satisfactory,validation-29,The value of `FORCE_EXERCISE_COST` may be too low and make forced exercises very cheap,validation-29
+Satisfactory,validation-45, Unhandled return value of transferFrom in contracts/CollateralTracker.sol,validation-45
+Satisfactory,validation-34,`FactoryNFT#tokenURI()` does not comply with 721 since it doedne check if the tokenId is valid,validation-34
+Satisfactory,validation-36,The issue around validating the position list from the previous audit seems to have not been fixed,validation-36
+Satisfactory,validation-30,Usage of Low-Level .call() Function,validation-30
+Satisfactory,validation-10,"the issue type ragarding expect return value for approve, transfer and we adding transfer from.",validation-10
+Satisfactory,validation-43,The `tokenURI` function doesn't verify if a token ID is valid before returning its metadata. This means it could return data for a fake or non existent NFT.,validation-43
+Satisfactory,validation-33, Issue M-02 not correctly fixed since the check is not inclusive ,validation-33
+Satisfactory,validation-38,I will describe a smart way to exploit the smart contract's totalAssets(),validation-38
+Satisfactory,validation-31,After EIP-3074 owners would be unable to withdraw due to the `msg.sender != owner` check ,validation-31
+Satisfactory,validation-23,integer overflow.,validation-23
+Satisfactory,validation-7,There is couple of issues with the privius code.,validation-7
+Satisfactory,validation-2,Delegatecal Loop : contracts/base/Multicall.sol#L12-L36,validation-2
+Satisfactory,validation-39, `_validatePositionList()` positionIdList can still lead to forgery,validation-39
+Satisfactory,validation-35, getChainName()'s implementation is somewhat broken on the Blast chain.,validation-35
+Satisfactory,validation-22,the lack of access controls on certain functions,validation-22
+Satisfactory,validation-55,SFPM does not update `s_accountPremiumOwed` or 's_accountPremiumGross` accumulators while transferring position,validation-55
+Satisfactory,validation-53,M-02 from past audit not completely fixed. Users can still bypass solvency checks when settling long premium,validation-53
+Satisfactory,validation-19,Pool deployment can be DoS'd through price manipulation,validation-19
+Satisfactory,validation-18,`s_poolAssets` underflow in `CollateralTracker.sol` will lead to protocol failure,validation-18
+Satisfactory,validation-32, Users solvency validation are being erroneously executed since they are done on the basis of  wrong tick data,validation-32
+Satisfactory,validation-54,JSON injection and xss through ERC20 symbol when generating `tokenUri` ,validation-54
+Satisfactory,validation-40,Approve race condition in Collateral Tracker,validation-40
+Satisfactory,validation-44,Missing return values in `assertMinCollateralValues` function causes difficulty in slippage checks,validation-44
+Satisfactory,validation-37,Protocol is vulnerable to SVG JSON injection attacks,validation-37
+Satisfactory,validation-41,safeERC20Symbol() function will always revert when interating with tokens that returns bytes32 as Symbol,validation-41
+Satisfactory,validation-24,Sum vonalblity of smart contact ,validation-24
+Satisfactory,validation-26,Array length should be checked in MetadataStore.sol.,validation-26
+Satisfactory,validation-49,Inaccurate Collateral Calculation in _computeSpread Function Due to Insufficient Zero Difference Handling,validation-49
+Satisfactory,validation-27, Use of delegatecall in a payable function inside a loop,validation-27
+Satisfactory,validation-14,Integer Overflow in Pool ID Storage *unchecked Addition Can Lead to Incorrect Pool ID in SFPM,validation-14
+Satisfactory,validation-50,Incorrect Validation in _updatePositionsHash Function Allows Exceeding Maximum Positions Limit by One,validation-50
+Satisfactory,validation-12,Incorrect String Truncation in FactoryNFT Can Lead to Incomplete Panoptic Pool Addresses Within Metadata URI,validation-12
+Satisfactory,validation-15,UniswapV3 Callback Miscalculation in SFPM Risks Loss of Funds for Payers.,validation-15
+Satisfactory,validation-11,Incorrect Assumption in FactoryNFT Can Lead to Reverts During Token URI Retrieval.,validation-11
+Satisfactory,validation-28,Lack of overflow validation allows manipulation of s_poolAssets leading to incorrect totalAssets calculation,validation-28
+Satisfactory,validation-13,"Integer Overflow in Metadata Access Logic ([bytes32(""descriptions"")])",validation-13
+Satisfactory,validation-16,Inaccurate Premium Accounting in SFPM Due to Incomplete Data Updates in registerTokenTransfer.,validation-16
+Satisfactory,validation-48,Division by Zero in _computeSpread Function Leads to Potential Runtime Errors and Incorrect Collateral Calculations,validation-48
+Satisfactory,validation-47,Uninitialized Variable in _getRequiredCollateralSingleLegPartner Function May Lead to Incorrect Collateral Calculations,validation-47
+Satisfactory,validation-42,Usage of `slot0` is extremely easy to manipulate,validation-42
+Satisfactory,validation-6,Use of delegatecall Inside Loop in Payable Function within Multicall contract,validation-6
+Satisfactory,validation-46,[M-01] Potential Division by Zero or Unintended Behavior Due to Close Asset Values in the `revoke` function,validation-46
+Satisfactory,validation-8,Math.sol library uses the bitwise-xor operator instead of the exponentiation operator,validation-8
+Satisfactory,validation-52,Incorrect Validation for tickLimitLow and tickLimitHigh Causing Potential Slippage Check Failures,validation-52
+Satisfactory,validation-51,Lack of Validation for positionIdList in mintOptions Function Can Lead to Errors and Potential Exploits,validation-51
+Satisfactory,validation-20,The `startToken` function in the `CollateralTracker` contract is missing a critical modifier to ensure that only the associated Panoptic pool can call it,validation-20
