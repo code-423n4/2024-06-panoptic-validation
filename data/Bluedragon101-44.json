@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Missing return values in `assertMinCollateralValues` function causes difficulty in slippage checks",
   "issueId": 44,
-  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/44"
+  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/44",
+  "validatedIssueId": 14,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-06-panoptic-findings/issues/14"
 }
