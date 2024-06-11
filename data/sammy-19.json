@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Pool deployment can be DoS'd through price manipulation",
   "issueId": 19,
-  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/19"
+  "issueUrl": "https://github.com/code-423n4/2024-06-panoptic-validation/issues/19",
+  "validatedIssueId": 37,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-06-panoptic-findings/issues/37"
 }
